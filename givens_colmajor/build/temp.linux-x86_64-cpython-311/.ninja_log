@@ -1,0 +1,3 @@
+# ninja log v5
+0	3052	1784054583059122793	/workspace/nilpotent_butterfly_custom_kernels/givens_colmajor/build/temp.linux-x86_64-cpython-311/kernel.o	166d6d5bd3da893e
+0	12318	1784054592324074249	/workspace/nilpotent_butterfly_custom_kernels/givens_colmajor/build/temp.linux-x86_64-cpython-311/extension.o	cfbb5ba267290bc5

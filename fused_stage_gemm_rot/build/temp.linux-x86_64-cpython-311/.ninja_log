@@ -1,0 +1,4 @@
+# ninja log v5
+1	4860	1784055914519052395	/workspace/nilpotent_butterfly_custom_kernels/fused_stage_gemm_rot/build/temp.linux-x86_64-cpython-311/kernel.o	34a2559d94138ac6
+1	8916	1784055918574030735	/workspace/nilpotent_butterfly_custom_kernels/fused_stage_gemm_rot/build/temp.linux-x86_64-cpython-311/kernel_cfg.o	b9a65ebc257e1e95
+0	12096	1784055921759013721	/workspace/nilpotent_butterfly_custom_kernels/fused_stage_gemm_rot/build/temp.linux-x86_64-cpython-311/extension.o	405eed18e051f8d2

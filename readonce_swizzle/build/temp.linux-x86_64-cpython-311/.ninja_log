@@ -1,0 +1,3 @@
+# ninja log v5
+1	11477	1784054577126153869	/workspace/nilpotent_butterfly_custom_kernels/readonce_swizzle/build/temp.linux-x86_64-cpython-311/kernel.o	421427a8691e08f1
+0	12196	1784054577853150062	/workspace/nilpotent_butterfly_custom_kernels/readonce_swizzle/build/temp.linux-x86_64-cpython-311/extension.o	80cc0146d3cff5ea

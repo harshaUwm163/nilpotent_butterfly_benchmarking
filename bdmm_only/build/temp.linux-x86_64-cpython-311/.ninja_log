@@ -1,0 +1,4 @@
+# ninja log v5
+1	8181	1784056345398894747	/workspace/nilpotent_butterfly_custom_kernels/bdmm_only/build/temp.linux-x86_64-cpython-311/kernel.o	ebb5eca33dcade4c
+1	12101	1784056349324875009	/workspace/nilpotent_butterfly_custom_kernels/bdmm_only/build/temp.linux-x86_64-cpython-311/extension.o	541ef9f2ae2f6a2f
+1	17004	1784056354220850384	/workspace/nilpotent_butterfly_custom_kernels/bdmm_only/build/temp.linux-x86_64-cpython-311/kernel_cfg.o	cd88543cc1f27dc1
