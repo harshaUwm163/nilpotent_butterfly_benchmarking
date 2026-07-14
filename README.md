@@ -39,6 +39,26 @@ x -> blkdiag1 (swz_s1) -> Givens G1 (rot_fixed) -> blkdiag2 (swz_s2) -> Givens G
   baseline (shared clock state); `--check` verifies rot_persist is bit-exact vs `rot_fixed`.
   Uses the 8x512x256 blocking (not the two-stage 32x128x64).
 
+## Install
+
+Run everything inside the official PyTorch docker image (from the repo root, so the repo —
+including the `cutlass/` checkout — is mounted at `/workspace`):
+
+```bash
+docker run -it \
+  --gpus all \
+  -v "$(pwd):/workspace" \
+  pytorch/pytorch:2.5.1-cuda12.1-cudnn9-devel \
+  bash
+```
+
+Then, inside the container, install the Python dependencies:
+
+```bash
+cd /workspace
+pip install -r requirements.txt
+```
+
 ## Build
 
 `readonce_swizzle` needs the CUTLASS headers; point `CUTLASS_DIR` at a CUTLASS checkout
